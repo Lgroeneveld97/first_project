@@ -42,3 +42,50 @@ elif cijfer >= 6:
     print("Voldoende")
 else:
     print("Onvoldoende")
+
+temperatuur = 25
+if temperatuur > 30:
+    print("Het is heet buiten.")
+
+for i in range(2, 14, 2):  # van 2 t/m 10, steeds +2
+    print(i)
+
+dieren = ["hond", "kat", "konijn"]
+
+for pil in dieren:
+    print("Ik zie een", pil)
+
+getallen = [10, 20, 30, 40]
+dieren = ["hond", "kat", "konijn"]
+
+print(getallen)
+print(dieren)
+
+print(dieren[0])   # hond
+print(dieren[2])   # konijn
+print(dieren[-3])  # hond
+
+dieren.append("olifant")   # toevoegen aan het einde
+print(dieren)
+
+dieren.remove("hond")      # eerste 'hond' verwijderen
+print(dieren)
+
+laatste = dieren.pop()     # haalt laatste element weg
+print("Weggehaald:", laatste)
+
+for dier in dieren:
+    print("Ik zie een", dier)
+
+getallen = [5, 2, 9, 1]
+
+print(len(getallen))   # lengte → 4
+print(min(getallen))   # kleinste → 1
+print(max(getallen))   # grootste → 9
+print(sorted(getallen)) # gesorteerde lijst → [1,2,5,9]
+print(sum(getallen))   # som → 17
+
+def begroet():
+    print("Hallo!")
+    print("Welkom bij Python.")
+begroet()

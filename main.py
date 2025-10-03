@@ -34,3 +34,11 @@ print(x < y)   # True
 print(x == y)  # False
 print(x != y)  # True
 
+cijfer = 7
+
+if cijfer >= 9:
+    print("Uitmuntend!")
+elif cijfer >= 6:
+    print("Voldoende")
+else:
+    print("Onvoldoende")

@@ -89,3 +89,11 @@ def begroet():
     print("Hallo!")
     print("Welkom bij Python.")
 begroet()
+
+def vermenigvuldig(a, b):
+    return a * b
+
+resultaat = vermenigvuldig(4, 6)
+print("Uitkomst:", resultaat)
+
+
